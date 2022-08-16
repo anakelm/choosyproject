@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Vollkorn&display=swap');
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;                                  
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px;
+    background-color: #D2E5D0;
+    color: grey;    
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: 100vh;
+    margin: 0px;                             
+}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+    display: flex;
+    position: absolute;
+    margin-bottom: 200px;
+}
+ p {
+    font-size: 16px;
+    color: #1cad93;
+    display: flex;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+ }
+.progress-box {
+    background-color: #ffffff;
+    width: 350px;
+    height: 120px;
+    border-radius: 35px;
+    display: flex;
+    position: absolute;
+    align-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: auto;
+}
+.progress-bar {
+    height: 8px;
+    width: 180px;
+    margin-top: 20px;
+    background-color: #E4E5E8;
+    border-radius: 30px;
+    display: flex;
+}
+.indicator {
+    background-color: #1cad93;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    display: flex;
+    float: right;
+}
+.progress-done {
+    height: 100%;
+    width: 100px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #AAD6A0, #1cad93);
+    display: flex;
+}
+.stamp-container {
+    background-color: #E4E5E8;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 15px;
+}
